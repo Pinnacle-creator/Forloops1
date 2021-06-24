@@ -42,7 +42,7 @@ for (i = 0; i < numbers.length; i++) {
 
 const squares = [30, 2, 8, 24, 11];
 for (i = 0; i < squares.length; i++) {
-    console.log(squares[i] * squares[i] * squares[i]);
+    console.log(squares[i] ** 3);
 }
 
 // Verwachtte uitkomsten:
