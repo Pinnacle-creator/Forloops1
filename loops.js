@@ -45,15 +45,12 @@ for (let i = 0; i < 5; i++) {
 // ==========================================
 
 for (let i = 0; i < 15; i++) {
-    if (i % 2) {
-        console.log(i + " is oneven")
-    } else {
+    if (i % 2 === 0) {
         console.log(i + " is even")
+    } else {
+        console.log(i + " is oneven")
     }
-
-
 }
-
 
 // ==========================================
 // [BONUSOPDRACHT] - optioneel: maak een for-loop die van 0 tot 9 loopt en de getallen 0 tot 9 logt.
@@ -70,4 +67,16 @@ for (let i = 0; i < 15; i++) {
 // >> 8
 // >> 9
 // ==========================================
+
+for (let i = 0; i < 10; i++) {
+    if (i <= 2) {
+        console.log(i);
+    }
+    else if (i === 3 || i === 4 || i === 5) {
+        console.log("> " + i);
+    }
+    else if (i === 6 || i === 7 || i === 8 || i === 9) {
+        console.log(">> " + i);
+    }
+}
 
